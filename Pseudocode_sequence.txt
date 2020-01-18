@@ -1,0 +1,13 @@
+This program calculates the iterative sequence 
+for the set of positive integers
+
+def sequence(n):
+	print the n number
+	if n number is equal to 1
+		nothing to happen
+	elif check n number is even
+		n number divide by 2 and store in variable with interger value
+		recursively call this function with new number
+	else
+		n number multiply by 3 and add 1 and get interger value in output
+		recursively call this function with new number

@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% block heading %}
+  <h2 class="text-center">{{action}} Movie</h2>
+{% endblock %}
+
+{% block extra %}
+  <a class="btn btn-info" href="{% url 'movie_list' %}">Back</a>
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 custom">
+      {% if action == "Edit" %}
+        <form action="." method="post" id="movie_form">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="movie_name">Movie Name:</label>
+            <input type="text" class="form-control" id="movie_name" name="movie_name" value="{{data.movie_name}}">
+          </div>
+
+          <div class="form-group">
+            <label for="release_year">Release Year:</label>
+            <input type="text" class="form-control" id="release_year" name="release_year" value="{{data.release_year}}">
+          </div>
+
+          <div class="form-group">
+            <label for="cast">Cast:</label>
+            <input type="text" class="form-control" id="cast" name="cast" value="{{data.cast}}">
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea class="form-control" id="description" name="description">{{data.description}}</textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="ratings">Ratings:</label>
+            <input type="text" class="form-control" id="ratings" name="ratings" value="{{data.ratings}}">
+          </div>
+          <button type="submit" class="btn btn-success">Update</button>
+          <a href="{% url 'movie_list' %}" class="btn btn-danger">Cancel</a>
+        </form>
+      {% else %}
+        <form action="." method="post" id="movie_form">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="movie_name">Movie Name:</label>
+            <input type="text" class="form-control" id="movie_name" name="movie_name">
+          </div>
+
+          <div class="form-group">
+            <label for="release_year">Release Year:</label>
+            <input type="text" class="form-control" id="release_year" name="release_year">
+          </div>
+
+          <div class="form-group">
+            <label for="cast">Cast:</label>
+            <input type="text" class="form-control" id="cast" name="cast">
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea class="form-control" id="description" name="description"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="ratings">Ratings:</label>
+            <input type="text" class="form-control" id="ratings" name="ratings">
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+          <button type="reset" class="btn btn-danger">Cancel</button>
+        </form>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block script %}
+  {{block.super}}
+  <script type="text/javascript">
+    $('#movie_form').validate({
+      rules: {
+        "movie_name": {
+             required: true,
+         },
+         "release_year": {
+             required: true,
+             minlength:4,
+             maxlength:4,
+             digits: true,
+         },
+         "description": {
+             required: true,
+         },
+         "cast": {
+             required: true,
+         },
+         "ratings": {
+             required: true,
+             number: true,
+         },
+
+      },
+      messages: {
+        "movie_name": {
+             required: "Please enter movie name",
+         },
+         "release_year": {
+             required: "Please enter release year",
+             digits: "this field can only contain numbers"
+         },
+         "description": {
+             required: "Please enter movie description",
+         },
+         "cast": {
+             required: "Please enter movie cast",
+         },
+        "ratings": {
+             required: "Pleaes enter movie rating"
+         }
+      }
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "aws_region": "us-east-1",
+        "django_settings": "movie_management.settings",
+        "profile_name": "default",
+        "project_name": "movie-managemen",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-s99bhdycq"
+    }
+}
