@@ -28,7 +28,7 @@ col_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 plt.xticks(range(ncols), col_labels)
 plt.yticks(range(nrows), row_labels)
 
-# Show plot
+# Show plot and storing image
 
 plt.savefig('chess.png')
 plt.show()
