@@ -1,41 +1,41 @@
 You should have to follow these step to run this project.
 
 Make a virtual environment and install requirements
-	# virtualenv .env -p python3.6
-	# source .env/bin/activate
-	# pip install -r requirement.txt
+	- virtualenv .env -p python3.6
+	- source .env/bin/activate
+	- pip install -r requirement.txt
 
 If you want to see that result in GUI then you have to install tkinter for it.
-	# sudo apt-get install python3.6-tk
+	- sudo apt-get install python3.6-tk
 
 you can check all dependencies -
-	# pip freeze
+	- pip freeze
 
 
-𝐓𝐚𝐬𝐤 𝐃𝐞𝐭𝐚𝐢𝐥𝐬 :-
+# Task Details
 
 1. Create Chess Board Image Using Numpy/Pandas/matplotlib.
 	For this task, Please Run the chess.py file.
-	# python chess.py
+	- python chess.py
 
 2. Write Alogirithm and Pseduo code for iterative sequence Problem.
 	For this task, Please Run the sequence.py file.
-	# python sequence.py
+	- python sequence.py
 
 	and for Pseduo, please see it.
-	# Pseudocode_sequence.txt
+	- Pseudocode_sequence.txt
 
 3. Create Django Application for Movie information storage.
 	
 	please Go to the movie_management
-	# cd movie_management
+	- cd movie_management
 
-	# pip install -r requirement.txt
+	- pip install -r requirement.txt
 
 	Note:- If you want to setup new database then run below command for creating tables.
-		# python manage.py makemigrations
-		# python manage.py migrate
+		- python manage.py makemigrations
+		- python manage.py migrate
 
 	Please run below commnd for starting the django server
-	# python manage.py runserver
+	- python manage.py runserver
 
