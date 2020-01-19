@@ -19,8 +19,11 @@ Check all the dependencies successfully installed -
 # Task Details
 
 1. Create Chess Board Image Using Numpy/Pandas/matplotlib.
-	For this task, Please Run the chess.py file.
-	- python chess.py
+For this task, Please run chess.py file.
+	
+	python chess.py
+	
+Output:- Chess.png
 
 2. Write Alogirithm and Pseduo code for iterative sequence Problem.
 	For this task, Please Run the sequence.py file.
