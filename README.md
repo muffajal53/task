@@ -21,6 +21,7 @@ Check all the dependencies successfully installed -
 1. Create Chess Board Image Using Numpy/Pandas/matplotlib. 
 For this task, Please run chess.py file.
 	
+	
 	python chess.py
 	
 
