@@ -8,12 +8,15 @@ Creating virtual enviornment, activating and installing all the required depende
 	source .env/bin/activate
 	
 	pip install -r requirement.txt
+	
+Note:- For the first 2 tasks, do make the use of root 'requirement.txt' file.
 
 If you want to see that result in GUI then you have to install tkinter for it.
 	- sudo apt-get install python3.6-tk
 
 Check all the dependencies successfully installed -
-	- pip freeze
+	
+	pip freeze
 
 
 # Task Details
