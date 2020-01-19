@@ -14,6 +14,6 @@ def sequence(n):
 
 if __name__ == '__main__':
 	# starting from here
-	n = 13
+	number = int(input("Please insert the number for iterative sequence :- "))
 	# call this function
-	sequence(n)
+	sequence(number)
