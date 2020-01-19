@@ -18,7 +18,7 @@ Check all the dependencies successfully installed -
 
 # Task Details
 
-Task 1 :- Create Chess Board Image Using Numpy/Pandas/matplotlib. 
+𝐓𝐚𝐬𝐤 𝟏 :- Create Chess Board Image Using Numpy/Pandas/matplotlib. 
 For this task, Please run chess.py file.
 	
 	
@@ -26,7 +26,7 @@ For this task, Please run chess.py file.
 
 Output:- Chess.png
 	
-Task 2 :- Write Alogirithm and Pseduo code for iterative sequence Problem.
+𝐓𝐚𝐬𝐤 𝟐 :- Write Alogirithm and Pseduo code for iterative sequence Problem.
 For this task, Please Run the sequence.py file.
 
 	python sequence.py
@@ -57,7 +57,7 @@ and for Pseduo, please see it.
 	
 	Pseudocode_sequence.txt
 
-Task 3:- Create Django Application for Movie Information Storage.
+𝐓𝐚𝐬𝐤 𝟑 :- Create Django Application for Movie Information Storage.
 Creating virtual enviornment and activating for Django application 
 	
 	virtualenv .movie -p python3.6
