@@ -1,15 +1,13 @@
 # Intial Setup
 
 Create a virtual environment and install requirements
-
-	Creating virtual enviornment for python 3.6
-	- virtualenv .env -p python3.6
+	Creating virtual enviornment, activating and installing all the required dependencies for the first 2 tasks(i.e Chess Board and iterative sequence Problem )
 	
-	Activate the created environment (i.e .env)
-	- source .env/bin/activate
+	virtualenv .env -p python3.6
 	
-	Install all the required dependencies from the requirement.txt file
-	- pip install -r requirement.txt
+	source .env/bin/activate
+	
+	pip install -r requirement.txt
 
 If you want to see that result in GUI then you have to install tkinter for it.
 	- sudo apt-get install python3.6-tk
