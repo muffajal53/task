@@ -1,4 +1,4 @@
-You should have to follow these step to run this project.
+# Intial Setup
 
 Make a virtual environment and install requirements
 	- virtualenv .env -p python3.6
@@ -16,6 +16,7 @@ you can check all dependencies -
 
 1. Create Chess Board Image Using Numpy/Pandas/matplotlib.
 	For this task, Please Run the chess.py file.
+	<font color="green"> Some green text </font>
 	- python chess.py
 
 2. Write Alogirithm and Pseduo code for iterative sequence Problem.
