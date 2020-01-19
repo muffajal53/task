@@ -26,11 +26,35 @@ For this task, Please run chess.py file.
 	
 
 2. Write Alogirithm and Pseduo code for iterative sequence Problem.
-	For this task, Please Run the sequence.py file.
-	- python sequence.py
+For this task, Please Run the sequence.py file.
 
-	and for Pseduo, please see it.
-	- Pseudocode_sequence.txt
+	python sequence.py
+
+Output :- 
+	
+	Please insert the number for iterative sequence :- 15
+	15
+	46
+	23
+	70
+	35
+	106
+	53
+	160
+	80
+	40
+	20
+	10
+	5
+	16
+	8
+	4
+	2
+	1
+
+and for Pseduo, please see it.
+	
+	Pseudocode_sequence.txt
 
 3. Create Django Application for Movie information storage.
 	
