@@ -23,7 +23,6 @@ For this task, Please run chess.py file.
 	
 	python chess.py
 	
-Output:- Chess.png
 
 2. Write Alogirithm and Pseduo code for iterative sequence Problem.
 	For this task, Please Run the sequence.py file.
