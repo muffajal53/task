@@ -18,14 +18,15 @@ Check all the dependencies successfully installed -
 
 # Task Details
 
-1. Create Chess Board Image Using Numpy/Pandas/matplotlib. 
+Task 1 :- Create Chess Board Image Using Numpy/Pandas/matplotlib. 
 For this task, Please run chess.py file.
 	
 	
 	python chess.py
-	
 
-2. Write Alogirithm and Pseduo code for iterative sequence Problem.
+Output:- Chess.png
+	
+Task 2 :- Write Alogirithm and Pseduo code for iterative sequence Problem.
 For this task, Please Run the sequence.py file.
 
 	python sequence.py
@@ -56,12 +57,20 @@ and for Pseduo, please see it.
 	
 	Pseudocode_sequence.txt
 
-3. Create Django Application for Movie information storage.
+Task 3:- Create Django Application for Movie Information Storage.
+Creating virtual enviornment and activating for Django application 
 	
-	please Go to the movie_management
-	- cd movie_management
+	virtualenv .movie -p python3.6
+	
+	source .movie/bin/activate
+	
+Navigate to movie_management folder
 
-	- pip install -r requirement.txt
+	cd movie_management
+
+Install Dependencies
+
+	pip install -r requirement.txt
 
 	Note:- If you want to setup new database then run below command for creating tables.
 		- python manage.py makemigrations
