@@ -81,3 +81,15 @@ starting the django server
 	
 	python manage.py runserver
 
+Then, open browser and navigate to
+	
+	localhost:8000
+
+For accessing the Rest API for our application
+	
+	localhost:8000/movie/
+	
+Also, for individual movie details
+	
+	localhost:8000/movie/2/
+
