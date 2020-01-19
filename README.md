@@ -71,11 +71,13 @@ Navigate to movie_management folder
 Install Dependencies
 
 	pip install -r requirement.txt
+	
+Databse Creation
 
-	Note:- If you want to setup new database then run below command for creating tables.
-		- python manage.py makemigrations
-		- python manage.py migrate
-
-	Please run below commnd for starting the django server
-	- python manage.py runserver
+	python manage.py makemigrations
+	python manage.py migrate
+	
+starting the django server
+	
+	python manage.py runserver
 
