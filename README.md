@@ -1,7 +1,7 @@
 # Intial Setup
 
-Create a virtual environment and install requirements
-	Creating virtual enviornment, activating and installing all the required dependencies for the first 2 tasks(i.e Chess Board and iterative sequence Problem )
+
+Creating virtual enviornment, activating and installing all the required dependencies for the first 2 tasks(i.e Chess Board and iterative sequence Problem )
 	
 	virtualenv .env -p python3.6
 	
